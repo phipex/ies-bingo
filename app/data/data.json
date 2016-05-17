@@ -1,0 +1,24 @@
+{
+	"login":{
+				"usuario": "sucursal",
+				 "clave": "123456"
+			},
+	 "modulo":{
+					"modulo": "1030",
+					"sorteo": "5"
+				},
+	"asignacion": {
+					"pagina": 1,
+					"token": "3maaec5mhufiegg88jtfameevf28h9bhugdcjl8rnansn6t66vd7",
+					"keyword": 0
+				},
+
+	"sorteo":{
+				"caso": 1,
+				"pagina": -1,
+				"token": "3h44454g1bm706b3cmeish3b4g5sa1vido2d971vn0gdqvc603a4",
+				"keyword": "",
+				"keyword2": ""
+			}
+
+}
