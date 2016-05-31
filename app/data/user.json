@@ -1,0 +1,12 @@
+{
+  "first": "Goutham",
+  "last": "Gandhi",
+  "isAdmin": false,
+  "parametros":[
+    "ingventas",
+    "delventas",
+    "editVentas",
+    "modulos"
+
+  ]
+}
