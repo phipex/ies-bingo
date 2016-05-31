@@ -1,0 +1,18 @@
+<p>This is the login view.</p>
+
+
+<form class="form-signin">
+  <h2 class="form-signin-heading">Por Favor Ingrese</h2>
+  <label for="inputUserName" class="sr-only">Email address</label>
+  <input type="text" id="inputUserName" class="form-control" placeholder="Nombre de Usuario" ng-model="loginctrl.name" required autofocus>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input type="password" id="inputPassword" class="form-control" placeholder="Password" ng-model="loginctrl.pass" required>
+
+  <!-- TODO activar el recuerdame-->
+  <!--<div class="checkbox">
+    <label>
+      <input type="checkbox" value="remember-me"> Recuerdame
+    </label>
+  </div>-->
+  <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="loginctrl.signIn()">Sign in</button>
+</form>
