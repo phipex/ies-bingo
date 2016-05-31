@@ -17,9 +17,12 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'angular.css.injector'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider,cssInjectorProvider) {
+    cssInjectorProvider.setSinglePageMode(true);
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
